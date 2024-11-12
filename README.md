@@ -4,6 +4,8 @@ Kilovolt-DB is a high-performance, in-memory, multi-threaded, and clustered data
 
 Kilovolt-DB is optimized for environments that require high scalability and fault tolerance, such as distributed systems, microservices, and real-time applications.
 
+![Kilovolt logo](./docs/images/logo-small.png)
+
 ---
 
 ## Features
