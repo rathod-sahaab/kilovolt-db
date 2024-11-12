@@ -1,0 +1,49 @@
+
+# Ignore the binary files built by Go
+/kilovolt-db
+
+# Ignore local Go build directories
+/bin/
+/build/
+
+# Ignore IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test results
+*.test
+
+# Ignore temporary and backup files
+*.swp
+*.bak
+*.tmp
+
+# Ignore logs
+*.log
+
+# gRPC code generation (if you're generating Go code from Protobufs)
+/proto/generated/
+
+# gRPC tools and dependencies
+*.pb.go
+*.pb.gw.go
+
+# Ignore dependency management directories (in case you use other dependency managers)
+vendor/
+
+# Ignore coverage and profiling files
+*.out
+*.prof
+
+# Ignore GoReleaser artifact directories
+/dist/
+/build/
+
+# GoLand specific
+/.idea/
